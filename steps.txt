@@ -1,0 +1,16 @@
+install Node JS
+check node version: node --version
+install extentions in VS Code
+
+npm install -g create-react-app (npm ~ buying create-react-app)
+npx create-react-app 202211056-irctc (npx ~ renting create-react-app)
+npm start
+note: component (~ a form) | props (~ my details for that form) | state
+
+note: function-based components (current) & class-based components
+note: JSX = HTML dressed as JS
+
+npm install react-router-dom
+yarn add react-router-dom
+
+npm install firebase
