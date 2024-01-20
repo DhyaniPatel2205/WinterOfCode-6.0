@@ -1,0 +1,14 @@
+/* Header.module.css */
+.header {
+    background-color: #e74c3c;
+    /* Use your preferred background color */
+    color: #fff;
+    /* Text color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}

@@ -1,0 +1,33 @@
+.scrollerContainer {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scroller {
+    display: inline-block;
+    animation: scrollText 15s linear infinite;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Additional styling for the container and text */
+  .scrollerContainer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .scroller p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  

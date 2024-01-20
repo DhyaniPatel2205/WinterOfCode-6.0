@@ -1,0 +1,9 @@
+/* About.module.css */
+.container {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
