@@ -14,17 +14,17 @@ const Navbar = () => {
         <li className={styles.li}><Link to="/helpline">Helpline</Link></li>
         {user ? (
           <>
-            <li className={styles.li}><Link to="/payment">Payment</Link></li>
-            <li className={styles.li}><Link to="/booklist">Booklist</Link></li>
-            <li className={styles.li}><Link to="/profile">Profile</Link></li>
-            <li className={styles.li}><Link to="/search">Search Train</Link></li>
+            {/* <li className={styles.li}><Link to="/payment">Payment</Link></li> */}
+            {/* <li className={styles.li}><Link to="/booklist">Booklist</Link></li> */}
+            {/* <li className={styles.li}><Link to="/profile">Profile</Link></li> */}
+            {/* <li className={styles.li}><Link to="/search">Search Train</Link></li> */}
             {/* <li className={styles.li}><Link to="/logout">Logout</Link></li> */}
           </>
         ) 
         : (
           <>
-            <li><Link to="/login">Login</Link></li>
-            <li><Link to="/signup">Register</Link></li>
+            {/* <li><Link to="/login">Login</Link></li> */}
+            {/* <li><Link to="/signup">Register</Link></li> */}
           </>
         )}
         {/* <li className={styles.li}><Link to="/profile">Profile</Link></li> */}
